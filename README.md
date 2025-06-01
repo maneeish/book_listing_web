@@ -42,7 +42,7 @@
 ### 🔧 Installation & Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/imaaryan/Books-Listing-WebPage.git
+   git clone https://github.com/imaaryan/Books-Listing-WebPage.git](https://github.com/maneeish/book_listing_web
    ```
 2. Navigate to the project folder:
    ```bash
