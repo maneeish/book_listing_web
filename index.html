@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Find and discover books with FindMyBooks"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="assets/images/icon.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>FindMyBooks - Discover Your Next Read</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 id="logo">FindMy<span style="color: #d14613">Books</span></h1>
+      <a
+        id="github"
+        href="https://github.com/imaaryan/Books-Listing-WebPage"
+        target="_blank"
+        rel="noopener noreferrer"
+        ><i class="ri-github-fill"></i> GitHub</a
+      >
+    </header>
+
+    <main class="main-content">
+      <section class="search-container">
+        <div class="search">
+          <div class="input-container">
+            <input
+              class="search-field"
+              type="text"
+              placeholder="Search Your Book..."
+              aria-label="Search for books"
+            />
+            <i class="ri-search-line icon"></i>
+          </div>
+          <div class="btn-container">
+            <div id="sort-container">
+              <i class="ri-sort-desc"></i>
+              <select class="btn" name="Sort" id="sort">
+                <option value="">Sort by</option>
+                <option value="byNameASC">Name (A to Z)</option>
+                <option value="byNameDES">Name (Z to A)</option>
+                <option value="byDateNew">Date (New to Old)</option>
+                <option value="byDateOld">Date (Old to New)</option>
+              </select>
+            </div>
+            <button id="view-type" class="btn">
+              <i class="ri-layout-grid-line"></i>
+              List/Grid
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="book-results">
+        <div class="card-container grid">
+          <!-- all the books list here dynamically -->
+        </div>
+
+  
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2025 FindMyBooks. All rights reserved.</p>
+      <p>Developed by Manish Mandal</p>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
